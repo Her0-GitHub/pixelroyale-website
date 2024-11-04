@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pages/home.css">
+    <link rel="stylesheet" href="css/pages/home.css"> <!-- Da "separare" -->
     <!-- JS -->
     <script src="js/script.js"></script>
-    <script src="js/pages/home.js"></script>
+    <script src="js/pages/home.js"></script> <!-- Da "separare" -->
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -27,8 +27,34 @@
     <title>Pixelroyale - Official Website</title>
 </head>
 <body>
-    <nav>
-        <!-- da poi includere con <?php include("components/navbar.php"); ?> -->
+    <!-- da poi includere con <?php include("components/navbar.php"); ?> -->
+    <nav class="navbar navbar-expand-lg px-bg-gray">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/pixelroyale.png" alt="Pixelroyale logo" width="64" height="64" class="d-inline-block align-text-top">
+                Pixelroyale
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <section>
 

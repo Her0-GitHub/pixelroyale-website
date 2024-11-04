@@ -1,1 +1,24 @@
-/* CSS Generale */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+/* root with this color:  pixelroyale gray 212121 pixelroyale light-blue1 10d8f1 pixelroyale light-blue2 15cced pixelroyale blue 26a4df pixelroyale white fffefe */
+
+:root {
+  --pixelroyale-gray: #212121;
+  --pixelroyale-light-blue1: #10d8f1;
+  --pixelroyale-light-blue2: #15cced;
+  --pixelroyale-blue: #26a4df;
+  --pixelroyale-white: #fffefe;
+}
+
+.px-bg-gray {
+    background-color: var(--pixelroyale-gray);
+    color: var(--pixelroyale-white);
+}
+.px-bg-gray *{
+    color: var(--pixelroyale-white) !important;
+}
